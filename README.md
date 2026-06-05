@@ -69,9 +69,5 @@
 
 <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=dbzoseh2rl" />
 
-<p align="left">
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbzoseh2rl&layout=compact&theme=tokyonight" />
-</p>
   </tr>
 </table>
