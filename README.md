@@ -1,8 +1,11 @@
 <p align="center"><img src="./header.svg" width="100%"/></p>
 
 <p align="center">
-  <img src="./banner_3_cyber_ocean.gif" width="800" alt="cyber-ocean-dev-room"/>
+  <a href="https://github.com/ehrud25">
+    <img src="./banner_3_cyber_ocean.gif" width="800" alt="cyber-ocean-dev-room"/>
+  </a>
 </p>
+
 
 <p align="center">
   <a href="mailto:dedev@naver.com"><img height="20" src="https://img.shields.io/badge/Email-dedev%40naver.com-03C75A?style=flat-square&logo=naver&logoColor=white"/></a>
