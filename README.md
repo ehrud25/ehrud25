@@ -1,11 +1,14 @@
 <p align="center"><img src="./header.svg" width="100%"/></p>
 
 <p align="center">
-  <img src="https://github.com/ehrud25/Toy-project/raw/main/ocean.gif" width="800" alt="ocean"/>
+  <img src="./coding_room.svg" width="800" alt="developer-room"/>
 </p>
 
 <p align="center">
-  <sub>📧 <a href="mailto:TODO@email.com">TODO@email.com</a> &nbsp;·&nbsp; 📝 <a href="TODO_블로그_URL">Blog</a></sub>
+  <a href="mailto:dedev@naver.com"><img height="20" src="https://img.shields.io/badge/Email-dedev%40naver.com-03C75A?style=flat-square&logo=naver&logoColor=white"/></a>
+  <a href="https://velog.io/@dbzoseh2rl/posts"><img height="20" src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white"/></a>
+  <a href="https://dokyung123.tistory.com"><img height="20" src="https://img.shields.io/badge/T--Story-EB531F?style=flat-square&logo=tistory&logoColor=white"/></a>
+  <a href="https://blog.naver.com/dbzoseh2rl123"><img height="20" src="https://img.shields.io/badge/Naver%20Blog-03C75A?style=flat-square&logo=naver&logoColor=white"/></a>
 </p>
 
 <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
