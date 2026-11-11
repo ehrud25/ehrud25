@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240">
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="880" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.33" stop-color="#60a5fa"/>
+      <stop offset="0.66" stop-color="#f0abfc"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="880 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    /* 손글씨 획: pathLength=1 기준으로 한 획씩 순서대로 그려짐 */
+    .s { fill: none; stroke: url(#g); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round;
+         stroke-dasharray: 1 1; stroke-dashoffset: 1; opacity: 0;
+         animation: draw .42s ease-in-out both; }
+    @keyframes draw {
+      0%   { stroke-dashoffset: 1; opacity: 0; }
+      1%   { opacity: 1; }
+      100% { stroke-dashoffset: 0; opacity: 1; }
+    }
+    .bar { transform-box: fill-box; transform-origin: center; animation: grow .8s ease-out 6.6s both; }
+    .sub { font: 500 20px ui-monospace, SFMono-Regular, Consolas, monospace; fill: #8b949e; letter-spacing: 2px; animation: rise 1s ease-out 6.9s both; }
+    .cur { animation: blink 1s step-end infinite; }
+    @keyframes rise  { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes grow  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes blink { 50% { fill-opacity: 0; } }
+  </style>
+
+  <g transform="translate(-45 -5)">
+    <!-- L -->
+    <path class="s" pathLength="1" style="animation-delay:.3s"  d="M172 40 C150 50 138 100 142 122 C144 134 158 134 190 124"/>
+    <!-- e -->
+    <path class="s" pathLength="1" style="animation-delay:.7s"  d="M205 112 C232 108 246 92 236 82 C226 72 204 90 204 112 C204 130 226 134 248 118"/>
+    <!-- e -->
+    <path class="s" pathLength="1" style="animation-delay:1.1s" transform="translate(48 0)" d="M205 112 C232 108 246 92 236 82 C226 72 204 90 204 112 C204 130 226 134 248 118"/>
+    <!-- D -->
+    <path class="s" pathLength="1" style="animation-delay:1.5s" d="M352 40 C346 70 342 100 338 128"/>
+    <path class="s" pathLength="1" style="animation-delay:1.9s" d="M338 80 C380 40 420 70 405 105 C395 128 360 132 338 122"/>
+    <!-- o -->
+    <path class="s" pathLength="1" style="animation-delay:2.3s" d="M462 90 C440 80 424 100 428 118 C432 134 462 130 464 106 C465 98 462 92 462 90 C470 100 480 110 492 100"/>
+    <!-- K -->
+    <path class="s" pathLength="1" style="animation-delay:2.9s" d="M565 40 C558 70 552 100 550 128"/>
+    <path class="s" pathLength="1" style="animation-delay:3.3s" d="M598 48 C585 70 565 88 552 98"/>
+    <path class="s" pathLength="1" style="animation-delay:3.7s" d="M566 92 C580 105 592 120 604 128"/>
+    <!-- y -->
+    <path class="s" pathLength="1" style="animation-delay:4.1s" d="M620 85 C622 105 630 122 645 118 C655 114 660 100 662 85"/>
+    <path class="s" pathLength="1" style="animation-delay:4.5s" d="M662 85 C664 120 662 150 650 168 C640 182 622 178 630 165"/>
+    <!-- u -->
+    <path class="s" pathLength="1" style="animation-delay:4.9s" d="M690 85 C692 108 698 124 712 120 C722 116 726 100 728 85"/>
+    <path class="s" pathLength="1" style="animation-delay:5.3s" d="M728 85 C730 100 732 118 742 124"/>
+    <!-- n -->
+    <path class="s" pathLength="1" style="animation-delay:5.6s" d="M758 85 C758 100 756 115 755 128"/>
+    <path class="s" pathLength="1" style="animation-delay:5.9s" d="M755 105 C762 88 785 78 790 98 C793 112 790 122 794 128"/>
+    <!-- g -->
+    <path class="s" pathLength="1" style="animation-delay:6.2s" d="M840 90 C818 78 805 100 810 116 C815 130 838 125 840 100 C842 130 842 150 830 166 C818 180 800 175 806 164"/>
+  </g>
+
+  <rect class="bar" x="360" y="160" width="160" height="3" rx="1.5" fill="url(#g)"/>
+  <text class="sub" x="440" y="205" text-anchor="middle">&gt; Backend Developer<tspan class="cur">_</tspan></text>
+</svg>
