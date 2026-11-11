@@ -1,7 +1,7 @@
 <p align="center"><img src="./header.svg" width="100%"/></p>
 
 <p align="center">
-  <img src="./coding_room.svg" width="800" alt="developer-room"/>
+  <img src="./banner_3_cyber_ocean.gif" width="800" alt="cyber-ocean-dev-room"/>
 </p>
 
 <p align="center">
